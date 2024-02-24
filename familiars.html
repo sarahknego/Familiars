@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rent a Familiar</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <header class="header">
+	        <h1 id="title">Rent a Familiar</h1>
+            <p>Find an infernal servant for any need!</p>
+            <img src="images/cauldron.webp" alt="a bubbling cauldron" class="image">
+        </header>
+        <div class="work">
+             <h2>How We Work</h2>
+                <p id="description">In need of someone to spy on your neighbors? To help get revenge on your ex? Does your working need that extra push to geet going? 
+                 Well then we have the familiar for you! Temporary contracts are available for all of our familiars at reasonable prices.
+                 Just apply for your desired familiar and let the spirits take it from there!
+                 </p>
+        </div>
+        <div class="available">
+            <h2>Available Familiars</h2>
+                 <div class="familiar">
+                    <h3>Serpent</h3>
+                    <img src="images/serpent_of_the_east.png" alt="Serpent of the East Sigil" class="image">
+                    <p>Spirit of the sun and patron of fire, the Serpent is useful in all matters of strength, power, and passion.</p>
+                     <h4>Virtues of the Serpent</h4>
+                        <div class="familiar-list">
+                         <ul>
+                            <li>Element: Fire</li>
+                            <li>Direction: East</li>
+                            <li>Color: Red</li>
+                            <li>Season: Spring</li>
+                            <li>Time of Day: Dawn</li>
+                            <li>Tools: Knife, Broom, Spirit-Whip</li>
+                         </ul>
+                         </div>
+                     <h4>Price: One night's sleep</h4>
+                 </div>
+                 <div class="familiar">
+                     <h3>Hare</h3>
+                    <img src="images/hare_of_the_south.png" alt="Hare of the South Sigil" class="image">
+                     <p>Spirit of the earth, the Hare assists in matters of wealth, growth, and abundance.</p>
+                     <h4>Virtues of the Hare</h4>
+                        <div class="familiar-list">
+                         <ul>
+                            <li>Element: Earth</li>
+                            <li>Direction: South</li>
+                            <li>Color: White</li>
+                            <li>Season: Summer</li>
+                            <li>Time of Day: Noon</li>
+                            <li>Tools: Stones, Bowl, Pentacle</li>
+                        </ul>
+                        </div>
+                    <h4>Price: A day's worth of warmth</h4>
+                 </div>
+                 <div class="familiar">
+                     <h3>Toad</h3>
+                     <img src="images/toad_of_the_west.png" alt="Toad of the West Sigil" class="image">
+                     <p>Spirit of water and the moon, the Toad deals in matters of dreams, memories, and healing.</p>
+                     <h4>Virtues of the Toad</h4>
+                        <div class="familiar-list">
+                         <ul>
+                            <li>Element: Water</li>
+                            <li>Direction: West</li>
+                            <li>Color: Grey</li>
+                            <li>Season: Autumn</li>
+                            <li>Time of Day: Dusk</li>
+                            <li>Tools: Cauldron, Horn-Cup</li>
+                        </ul> 
+                        </div>
+                    <h4>Price: A single pleasant memory</h4>
+                </div>
+                <div class="familiar">
+                    <h3>Crow</h3>
+                    <img src="images/crow_of_the_north.png" alt="Crow of the North Sigil" class="image">
+                    <p>Spirit of the air, the dark Crow lends help in matters of spirit communication, cursing, and wisdom.</p>
+                    <h4>Virtues of the Crow</h4>
+                        <div class="familiar-list">
+                        <ul>
+                            <li>Element: Air</li>
+                            <li>Direction: North</li>
+                            <li>Color: Black</li>
+                            <li>Season: Winter</li>
+                            <li>Time of Day: Midnight</li>
+                            <li>Tools: Skull, Wand, Censer, Bell</li>
+                        </ul>
+                        </div>
+                    <h4>Price: Three drops of blood from your left index finger</h4>
+                </div>
+                <div class="familiar">
+                    <h3>Black Cat</h3>
+                    <img src="images/black_cat.png" alt="Black Cat Silhouette" class="image">
+                    <p>This special edition familiar is a classic. The Black Cat is a suitable helper in any and all witchy doings.</p>
+                    <h4>Most Popular Black Cat Familiars:</h4>
+                        <div class="familiar-list">
+                        <ol>
+                            <li>Salem: Sassy, sarcastic, and loyal</li>
+                            <li>Thackery Binx: Cursed and sad about it, but still helpful</li>
+                            <li>Luna: Wise and responsible</li>
+                        </ol>
+                        </div>
+                    <h4>Price: A promise, whispered in secret</h4>
+                </div>
+        </div>
+        <h2>Familiar Application Form</h2>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name" class="question">Name</label>
+                <input 
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email" class="question">Email</label>
+                <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="age" class="question">Age (optional)</label>
+                <input
+                    type="number"
+                    name="age"
+                    id="number"
+                    min="13"
+                    max="666"
+                    class="form-control"
+                    placeholder="Age"
+                />
+            </div>
+            <div class="form-group">
+             <p class="question">What is your experience level?</p>
+                <select id="dropdown" name="experience" class="form-control" required>
+                    <option disabled selected value>Select experience level</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="expert">Expert</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p class="question">What do you need assistance in? (Check all that apply)
+                </p>
+                <label>
+                    <input
+                        name="need"
+                        value="love"
+                        type="checkbox"
+                        />Love 
+                </label>
+                <label>
+                    <input 
+                        name="need"
+                        value="health"
+                        type="checkbox"
+                        />Health
+                </label>
+                <label>
+                    <input  
+                        name="need"
+                        value="wealth"
+                        type="checkbox"
+                        />Wealth
+                </label>
+                <label>
+                    <input  
+                        name="need"
+                        value="revenge"
+                        type="checkbox"
+                        />Revenge
+                </label>
+            </div>
+            <div class="form-group">
+                <p class="question">How long will you need our services for?</p>
+                    <label>
+                        <input
+                            name="how-long"
+                            value="days"
+                            type="radio"
+                            checked
+                        />A matter of days
+                    </label>
+                    <label>
+                        <input
+                            name="how-long"
+                            value="weeks"
+                            type="radio"
+                        />A matter of weeks
+                    </label>
+                    <label>
+                        <input
+                            name="how-long"
+                            value="months"
+                            type="radio"
+                        />A matter of months
+                    </label>
+                    <label>
+                        <input 
+                            name="how-long"
+                            value="year"
+                            type="radio"
+                        />Over a year
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p>What are you looking for in a familiar?</p>
+                    <textarea
+                        id="looking-for"
+                        name="looking-for"
+                        placeholder="What are you looking for?"
+                    ></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">
+                        Submit
+                    </button>
+                </div>
+        </form>
+    </div>
+  </body>
+</html>
