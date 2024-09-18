@@ -13,7 +13,7 @@ The website displays information on the various familiars offered and takes info
 I made this project for a freeCodeCamp responsive web design certification project. A challenge I faced was with the formatting of the form as well as some elements of the CSS, like the form elements and formatting the images.
 
 ## Where can be seen: 
-[Familiars](https://github.com/sarahknego/Familiars.git) 
+[Familiars](https://sarahknego.github.io/Familiars/)) 
 
 ## How to install:
 1. Fork and clone this repository
